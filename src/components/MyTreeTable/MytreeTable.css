@@ -1,0 +1,53 @@
+/* MytreeTable.css */
+
+.my-treetable {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+.p-treetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #110134;
+  background-color: #d3e2f1;
+}
+
+.p-treetable th {
+  background-color: #72927f;
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.p-treetable td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #c8d4cd;
+}
+
+.p-treetable tr:hover {
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 600px) {
+  .p-treetable th,
+  .p-treetable td {
+    padding: 8px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.p-treetable th,
+.p-treetable td {
+  padding: 5px 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
