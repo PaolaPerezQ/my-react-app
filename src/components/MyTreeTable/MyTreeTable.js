@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TreeTable } from 'primereact/treetable';
 import { Column } from 'primereact/column';
 import dataTableData from '../../services/data.js';
-import empresaData from '../../services/dicionario-de-datos.json';
+import empresaData from '../../services/dataDictionary.json';
 import './MytreeTable.css'; 
 
 const MyTreeTable = () => {
@@ -69,8 +69,8 @@ const MyTreeTable = () => {
       <TreeTable value={data} className="responsive-table">
         <Column field="ID_EMPRESA" header="Empresa"  style={{ width: '22%' }}  />
         <Column field="ID_AREA" header="Área" expander />
-        <Column field="RUT_TRABAJADOR" header="RUT Trabajador"  />
-        <Column field="NOMBRE_TRABAJADOR" header="Nombre Trabajador"  />
+        <Column field="RUT_TRABAJADOR" header="RUT"  />
+        <Column field="NOMBRE_TRABAJADOR" header="Trabajador"  />
         <Column field="EDAD" header="Edad"  />
         <Column field="PROFESION" header="Profesión"  />
         <Column field="CARGO" header="Cargo" />

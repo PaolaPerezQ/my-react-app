@@ -42,3 +42,12 @@
     text-overflow: ellipsis;
   }
 }
+.p-treetable th,
+.p-treetable td {
+  padding: 5px 5px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
