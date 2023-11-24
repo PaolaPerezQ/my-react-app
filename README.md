@@ -15,3 +15,5 @@ Instrucciones:
 =  "  export default dataTableData;  "
 
 Listo para ejecutar.
+
+<img width="1680" alt="image" src="https://github.com/PaolaPerezQ/my-react-app.github.io/assets/109629563/ebfb249e-243d-4410-b2cb-9f584ae751bc">
