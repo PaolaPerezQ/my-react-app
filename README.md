@@ -10,8 +10,8 @@ Instrucciones:
 = node src/services/Convert/convertExcelToJson.js
 
 4 En el archivo convertido, data.js. colocar al principio:
-= const dataTableData = [
+= "  const dataTableData = [ "
                                      colocar al final:
-= export default dataTableData;
+=  "  export default dataTableData;  "
 
 Listo para ejecutar.
